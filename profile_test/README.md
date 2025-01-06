@@ -29,11 +29,11 @@ npx wdio run wdio.conf.js
 ```
 matchify/
 ├── src/
-│   └── components/
-│       └── ProfileCreationForm.jsx
+│   └── index.html
+│       
 ├── test/
 │   ├── specs/
-│   │   └── profile-creation.test.js
+│   │   └── profile.test.js
 │   └── fixtures/
 │       └── profile-pic.jpg
 ├── wdio.conf.js
