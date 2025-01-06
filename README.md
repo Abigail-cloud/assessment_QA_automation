@@ -21,16 +21,15 @@ The  task is to ensure the quality and reliability of the app by automating the 
 matchify/
 ├── src/
 │   ├── frontend/
-│   │   ├── components/
-│   │   │   └── ProfileCreationForm.jsx
+│   │   ├── index.html
 │   │   └── tests/
-│   │       └── profile-creation.test.js
+│   │       └── specs
+|             └── profile.test.js
 │   ├── server/
-│   │   ├── index.js
-│   │   └── middleware/
+│   │   ├── app.js
+│   │   
 │   └── mobile/
-│       └── tests/
-│           └── login.test.js
+│           └── app.test.js
 ├── tests/
 │   ├── api/
 │   ├── e2e/
@@ -41,7 +40,7 @@ matchify/
 ```
 
 ### Technology Stack
-- Frontend: React + WebDriverIO
+- Frontend: HTML + WebDriverIO
 - Backend: Express.js + Jest + Supertest
 - Mobile: Appium + WebDriverIO
 - CI/CD: GitHub Actions

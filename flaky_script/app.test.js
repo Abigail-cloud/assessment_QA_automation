@@ -142,4 +142,4 @@ if (require.main === module) {
   loginTest.runTest().catch(console.error);
 }
 
-module.exports = LoginTest; // Export for integration with test framework
+module.exports = LoginTest; 
